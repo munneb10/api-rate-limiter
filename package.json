@@ -1,0 +1,22 @@
+{
+  "name": "api-rate-limiter",
+  "version": "1.0.0",
+  "description": "A tiny Express middleware that limits API requests per IP using a sliding window algorithm.",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "author": "Taha Shahid Alvi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
